@@ -4,7 +4,7 @@
     "beforeBuildCommand": "yarn build",
     "beforeDevCommand": "yarn dev",
     "devPath": "http://localhost:5173",
-    "distDir": "../dist"
+    "distDir": "../apps/workspace/dist"
   },
   "package": {
     "productName": "ld-workspace",
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "tech.loona-designs.workspace",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
