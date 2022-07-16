@@ -1,0 +1,25 @@
+{
+  "name": "ld-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.4",
+    "turbo": "^1.3.1",
+    "vite": "^3.0.0"
+  }
+}
